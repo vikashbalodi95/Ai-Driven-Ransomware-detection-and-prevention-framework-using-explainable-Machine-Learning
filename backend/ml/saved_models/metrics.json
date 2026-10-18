@@ -1,0 +1,350 @@
+{
+  "champion_model": "XGBoost",
+  "test_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0,
+    "brier_score": 0.0,
+    "false_positive_rate": 0.0,
+    "false_negative_rate": 0.0,
+    "confusion_matrix": {
+      "true_negatives": 360,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "true_positives": 240,
+      "matrix": [
+        [
+          360,
+          0
+        ],
+        [
+          0,
+          240
+        ]
+      ]
+    },
+    "roc_curve": [
+      {
+        "fpr": 0.0,
+        "tpr": 0.0
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.6667
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.9583
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.9708
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.9875
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 0.0167,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 0.0222,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 0.0306,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 0.0333,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 0.05,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 0.0639,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 0.0806,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 0.0944,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 0.1139,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 0.1806,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 0.1833,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 0.1889,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 0.225,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 0.2833,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 0.2944,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 0.3083,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 0.3139,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 0.3361,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 1.0,
+        "tpr": 1.0
+      }
+    ],
+    "pr_curve": [
+      {
+        "recall": 1.0,
+        "precision": 0.4
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.5369
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.6799
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.6838
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.6957
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.6997
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.7018
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.7767
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.7843
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.7869
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.8759
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.8922
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.8989
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.9125
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.9302
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.9562
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.9717
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.9756
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.9917
+      },
+      {
+        "recall": 1.0,
+        "precision": 0.9959
+      },
+      {
+        "recall": 0.9958,
+        "precision": 1.0
+      },
+      {
+        "recall": 0.9875,
+        "precision": 1.0
+      },
+      {
+        "recall": 0.9792,
+        "precision": 1.0
+      },
+      {
+        "recall": 0.9583,
+        "precision": 1.0
+      },
+      {
+        "recall": 0.0,
+        "precision": 1.0
+      }
+    ],
+    "sample_count": 600
+  },
+  "candidate_comparison": {
+    "LogisticRegression": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "false_negative_rate": 0.0,
+      "false_positive_rate": 0.0
+    },
+    "RandomForest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "false_negative_rate": 0.0,
+      "false_positive_rate": 0.0
+    },
+    "XGBoost": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "false_negative_rate": 0.0,
+      "false_positive_rate": 0.0
+    }
+  },
+  "global_feature_importance": [
+    {
+      "feature": "file_rename_rate",
+      "display_name": "File Rename Rate",
+      "mean_abs_shap": 3.773,
+      "relative_importance_pct": 50.33,
+      "description": "Frequency of file renaming operations (common during mass extension tampering)"
+    },
+    {
+      "feature": "suspicious_extension_ratio",
+      "display_name": "Suspicious Extension Ratio",
+      "mean_abs_shap": 2.843,
+      "relative_importance_pct": 37.93,
+      "description": "Fraction of target files assigned known ransomware or randomized extensions"
+    },
+    {
+      "feature": "entropy_change_mean",
+      "display_name": "Entropy Change Mean",
+      "mean_abs_shap": 0.392,
+      "relative_importance_pct": 5.23,
+      "description": "Mean Shannon entropy differential between original and modified file blocks"
+    },
+    {
+      "feature": "unique_file_extensions_accessed",
+      "display_name": "Unique File Extensions Accessed",
+      "mean_abs_shap": 0.2343,
+      "relative_importance_pct": 3.13,
+      "description": "Diversity of targeted file extensions (.docx, .pdf, .db, .xlsx, .jpg)"
+    },
+    {
+      "feature": "rapid_file_deletion_rate",
+      "display_name": "Rapid File Deletion Rate",
+      "mean_abs_shap": 0.1829,
+      "relative_importance_pct": 2.44,
+      "description": "Rate of unlinking/deleting original files post-encryption"
+    },
+    {
+      "feature": "process_cpu_usage_burst",
+      "display_name": "Process Cpu Usage Burst",
+      "mean_abs_shap": 0.0422,
+      "relative_importance_pct": 0.56,
+      "description": "Peak CPU consumption during cryptographic encryption loops"
+    },
+    {
+      "feature": "file_modification_rate",
+      "display_name": "File Modification Rate",
+      "mean_abs_shap": 0.0185,
+      "relative_importance_pct": 0.25,
+      "description": "Rate of file modifications per second during the monitoring window"
+    },
+    {
+      "feature": "file_read_to_write_ratio",
+      "display_name": "File Read To Write Ratio",
+      "mean_abs_shap": 0.0102,
+      "relative_importance_pct": 0.14,
+      "description": "Symmetry ratio of bytes read to bytes written in mass operations"
+    },
+    {
+      "feature": "directory_traversal_depth",
+      "display_name": "Directory Traversal Depth",
+      "mean_abs_shap": 0.0,
+      "relative_importance_pct": 0.0,
+      "description": "Maximum directory nesting depth accessed in the process working tree"
+    },
+    {
+      "feature": "canary_file_modified",
+      "display_name": "Canary File Modified",
+      "mean_abs_shap": 0.0,
+      "relative_importance_pct": 0.0,
+      "description": "Indicates whether sentinel/decoy canary trap files were modified"
+    },
+    {
+      "feature": "shadow_copy_access_attempt",
+      "display_name": "Shadow Copy Access Attempt",
+      "mean_abs_shap": 0.0,
+      "relative_importance_pct": 0.0,
+      "description": "Tampering with Volume Shadow Copies (e.g., vssadmin delete shadows)"
+    },
+    {
+      "feature": "ransom_note_detected",
+      "display_name": "Ransom Note Detected",
+      "mean_abs_shap": 0.0,
+      "relative_importance_pct": 0.0,
+      "description": "Creation of ransom payment instruction files (.txt/.hta/.html)"
+    }
+  ],
+  "evaluated_at": "2026-10-12T06:43:47.980455+00:00"
+}

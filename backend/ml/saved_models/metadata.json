@@ -1,0 +1,29 @@
+{
+  "model_name": "RansomGuard-XAI",
+  "version": "1.0.0",
+  "algorithm": "XGBoost",
+  "feature_count": 12,
+  "features": [
+    "file_modification_rate",
+    "file_rename_rate",
+    "entropy_change_mean",
+    "suspicious_extension_ratio",
+    "directory_traversal_depth",
+    "rapid_file_deletion_rate",
+    "process_cpu_usage_burst",
+    "canary_file_modified",
+    "shadow_copy_access_attempt",
+    "ransom_note_detected",
+    "file_read_to_write_ratio",
+    "unique_file_extensions_accessed"
+  ],
+  "training_samples": 2800,
+  "validation_samples": 600,
+  "test_samples": 600,
+  "trained_at": "2026-10-12T06:43:47.980455+00:00",
+  "limitations": [
+    "Features assume behavioral endpoint telemetry availability (file hooks, entropy monitors).",
+    "Extremely low-and-slow ransomware taking days per file may require wider temporal aggregation windows.",
+    "Explainability via TreeSHAP reflects model feature attributions rather than legal proof of intent."
+  ]
+}
