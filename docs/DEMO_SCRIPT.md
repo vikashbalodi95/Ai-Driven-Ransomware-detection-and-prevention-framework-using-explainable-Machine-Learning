@@ -5,7 +5,7 @@
 
 ---
 
-## 🎬 Act 1: Introduction & Problem Context (2 Minutes)
+## 🎬 Act 1: Introduction & Problem Context 
 
 ### Talking Points:
 1. **The Hook:** *"Good morning, respected professors. Today, we are presenting our capstone project: **AI Ransomware Detection with Explainable AI (XAI)**."*
@@ -14,7 +14,7 @@
 
 ---
 
-## 🖥️ Act 2: Executive SOC Dashboard Tour (3 Minutes)
+## 🖥️ Act 2: Executive SOC Dashboard Tour 
 
 ### Action on Screen:
 - Open `http://127.0.0.1:5173/` on the **Overview** tab.
@@ -30,7 +30,7 @@
 
 ---
 
-## 🔍 Act 3: Deep Drill-Down into Explainable AI (XAI) (4 Minutes)
+## 🔍 Act 3: Deep Drill-Down into Explainable AI (XAI) 
 
 ### Action on Screen:
 - In the Recent Telemetry table, find an event labeled `Ransomware` (e.g., `wncry_payload.exe` or `svchost_updater.exe`) and click **"Inspect"**.
@@ -48,7 +48,7 @@
 
 ---
 
-## 🔬 Act 4: Explainability Center & What-If Sandbox (3 Minutes)
+## 🔬 Act 4: Explainability Center & What-If Sandbox
 
 ### Action on Screen:
 - Click the **"Explainability & XAI"** tab in the top navigation bar.
@@ -68,7 +68,7 @@
 
 ---
 
-## ⚡ Act 5: Controlled Simulation Sandbox (2 Minutes)
+## ⚡ Act 5: Controlled Simulation Sandbox 
 
 ### Action on Screen:
 - Click the **"Simulation Sandbox"** tab in the top navigation bar.
@@ -84,7 +84,7 @@
 
 ---
 
-## 📋 Act 6: Incident Triage & Audit Trail (1 Minute)
+## 📋 Act 6: Incident Triage & Audit Trail 
 
 ### Action on Screen:
 - Click the **"Alerts & Audit"** tab.
